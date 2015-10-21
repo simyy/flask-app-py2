@@ -4,17 +4,16 @@
 
 ##structure
 
-* app (project src)
-  * __init__.py (flask app)
-  * config.py   (project config)
-  * email.py    (project email)
-  * models.py   (models by sqlalchemy)
-  * static      
-  * templates
-  * main        (an application of project, a project can contains more than one it)
-* migrate
-* tests         (unittest)
-* venv          (python virtual envirenment)
+--app (project src)
+  -- __init__.py (flask app)
+  -- config.py   (project config)
+  -- email.py    (project email)
+  -- models.py   (models by sqlalchemy)
+  -- static      
+  -- templates
+  -- main        (an application of project, a project can contains more than one it)
+-- tests         (unittest)
+-- venv          (python virtual envirenment)
 
 ##requirement
 
@@ -38,4 +37,4 @@ To create a new table or upgrade it, run
 python manage.py db upgrade
 ```
 
-Before it, the dir of migarations must be deleted.
+Before it, the dir of `migarations` must be deleted.
