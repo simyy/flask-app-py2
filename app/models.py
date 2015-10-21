@@ -16,10 +16,12 @@ class Person(db.Model):
 
     id   = Column(Integer, primary_key=True)
     name = Column(String(32)) 
+    age  = Column(Integer)
 
-    def __init__(self, id, name):
+    def __init__(self, id, name, age):
         self.id = id
         self.name = name
+        self.age = age
 
     def __repr__(self):
         return '<Person %s>' % self.id

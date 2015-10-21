@@ -37,3 +37,5 @@ To create a new table or upgrade it, run
 ```
 python manage.py db upgrade
 ```
+
+Before it, the dir of migarations must be deleted.
