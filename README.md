@@ -5,14 +5,23 @@
 ##structure
 
 --app (project src)
+
   -- __init__.py (flask app)
+
   -- config.py   (project config)
+
   -- email.py    (project email)
+
   -- models.py   (models by sqlalchemy)
+
   -- static      
+
   -- templates
+
   -- main        (an application of project, a project can contains more than one it)
+
 -- tests         (unittest)
+
 -- venv          (python virtual envirenment)
 
 ##requirement
