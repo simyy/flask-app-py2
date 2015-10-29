@@ -10,7 +10,13 @@ db = SQLAlchemy()
 
 
 def create_app(config_name):
-    app = Flask(__name__)
+    print config_name
+    app = Flask(__name__, template_folder="templates")
+
+    @app.route('/static/<path:path>')
+    def static_files():
+        return app.send_static_file(path)
+
     app.config.from_object(config[config_name])
     db.init_app(app)
    
