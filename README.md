@@ -1,30 +1,21 @@
-#Flask-Example
+# Flask-Example
 
 > This is a example of flask project.
 
-##structure
+## structure
 
---app (project src)
+* app (project src)
+  * __init__.py (flask app)
+  * config.py   (project config)
+  * email.py    (project email)
+  * models.py   (models by sqlalchemy)
+  * static      
+  * templates
+  * main        (an application of project, a project can contains more than one it)
+* tests         (unittest)
+* venv          (python virtual envirenment)
 
-  -- __init__.py (flask app)
-
-  -- config.py   (project config)
-
-  -- email.py    (project email)
-
-  -- models.py   (models by sqlalchemy)
-
-  -- static      
-
-  -- templates
-
-  -- main        (an application of project, a project can contains more than one it)
-
--- tests         (unittest)
-
--- venv          (python virtual envirenment)
-
-##requirement
+## requirement
 
 generate a new requirement
 
@@ -38,7 +29,7 @@ install all the requirement
 pip install -r requirement.txt
 ```
 
-##migrate
+## migrate
 
 To create a new table or upgrade it, run 
 
