@@ -1,5 +1,9 @@
 # Flask-Example
 
+## environment
+
+virtual env with python2.x
+
 > This is a example of flask project.
 
 ## structure
