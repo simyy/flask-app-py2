@@ -1,7 +1,7 @@
 Naked==0.1.31
 PAM==0.4.2
 Pillow==2.3.0
-PyYAML==3.11
+PyYAML==5.4
 SQLAlchemy==1.0.8
 Scrapy==0.24.6
 SecretStorage==2.0.0
