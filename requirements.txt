@@ -5,7 +5,7 @@ PyYAML==3.11
 SQLAlchemy==1.0.8
 Scrapy==0.24.6
 SecretStorage==2.0.0
-Twisted==15.2.1
+Twisted==22.4.0
 Twisted-Core==13.2.0
 Twisted-Web==13.2.0
 apt-xapian-index==0.45
